@@ -47,29 +47,49 @@ function Footer() {
           {/* Colonne 2 */}
           <div className="col-md-3">
             <h5>Liens utiles</h5>
-            <ul className="list-unstyled arrow-links">
+            <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-dark text-decoration-none">
+                <a
+                  href="/"
+                  className="text-dark text-decoration-none d-flex align-items-center"
+                >
+                  <i className="bi bi-chevron-right text-primary me-2"></i>{" "}
                   Accueil
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-dark text-decoration-none">
-                  À propos
+                <a
+                  href="/about"
+                  className="text-dark text-decoration-none d-flex align-items-center"
+                >
+                  <i className="bi bi-chevron-right text-primary me-2"></i> À
+                  propos
                 </a>
               </li>
               <li>
-                <a href="/services" className="text-dark text-decoration-none">
+                <a
+                  href="/services"
+                  className="text-dark text-decoration-none d-flex align-items-center"
+                >
+                  <i className="bi bi-chevron-right text-primary me-2"></i>{" "}
                   Services
                 </a>
               </li>
               <li>
-                <a href="/contact" className="text-dark text-decoration-none">
-                  Me contacter
+                <a
+                  href="/contact"
+                  className="text-dark text-decoration-none d-flex align-items-center"
+                >
+                  <i className="bi bi-chevron-right text-primary me-2"></i> Me
+                  contacter
                 </a>
               </li>
               <li>
-                <a href="/legal" className="text-dark text-decoration-none">
+                <a
+                  href="/legal"
+                  className="text-dark text-decoration-none d-flex align-items-center"
+                >
+                  <i className="bi bi-chevron-right text-primary me-2"></i>{" "}
                   Mentions légales
                 </a>
               </li>
@@ -80,9 +100,18 @@ function Footer() {
           <div className="col-md-3">
             <h5>Mes dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li>Fresh food</li>
-              <li>Restaurant Akira</li>
-              <li>Espace bien-être</li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i> Fresh
+                food
+              </li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i>{" "}
+                Restaurant Akira
+              </li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i> Espace
+                bien-être
+              </li>
             </ul>
           </div>
 
@@ -90,9 +119,18 @@ function Footer() {
           <div className="col-md-3">
             <h5>Mes derniers articles</h5>
             <ul className="list-unstyled">
-              <li>Coder son site en HTML/CSS</li>
-              <li>Vendre ses produits sur le web</li>
-              <li>Se positionner sur Google</li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i> Coder
+                son site en HTML/CSS
+              </li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i> Vendre
+                ses produits sur le web
+              </li>
+              <li className="d-flex align-items-center">
+                <i className="bi bi-chevron-right text-primary me-2"></i> Se
+                positionner sur Google
+              </li>
             </ul>
           </div>
         </div>
