@@ -12,12 +12,23 @@ function Menu() {
           alignItems: "center",
           justifyContent: "space-between",
           color: "#fff",
+          position: "relative",
+          zIndex: 1000,
         }}
       >
-        {/* Nom à gauche */}
-        <div style={{ fontWeight: "bold", fontSize: "20px" }}>John Doe</div>
+        {/* Logo + Nom */}
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <Link to="/">
+            <img
+              src="./images/apple-touch-icon.png" // Chemin de ton logo
+              alt="Logo"
+              style={{ height: "40px" }} // Ajuste la taille du logo ici
+            />
+          </Link>
+          <div style={{ fontWeight: "bold", fontSize: "20px" }}>John Doe</div>
+        </div>
 
-        {/* Liens à droite */}
+        {/* Liens de navigation */}
         <ul
           style={{
             listStyle: "none",

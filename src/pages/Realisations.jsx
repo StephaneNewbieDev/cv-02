@@ -35,7 +35,7 @@ const Realisations = () => {
         <div className="row">
           {/* Card 1 */}
           <div className="col-md-4">
-            <div className="card">
+            <div className="card text-center">
               <img
                 src="/images/fresh-food.jpg"
                 className="card-img-top"
@@ -46,7 +46,7 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site avec commande en ligne.
                 </p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-outline-primary">
                   Voir
                 </a>
               </div>
@@ -60,7 +60,7 @@ const Realisations = () => {
 
           {/* Card 2 */}
           <div className="col-md-4">
-            <div className="card">
+            <div className="card text-center">
               <img
                 src="/images/restaurant-japonais.jpg" // Remplacez par votre image
                 className="card-img-top"
@@ -69,7 +69,7 @@ const Realisations = () => {
               <div className="card-body">
                 <h5 className="card-title">Restaurant Akira</h5>
                 <p className="card-text">Réalisation d’un site vitrine.</p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-outline-primary">
                   Voir
                 </a>
               </div>
@@ -83,7 +83,7 @@ const Realisations = () => {
 
           {/* Card 3 */}
           <div className="col-md-4">
-            <div className="card">
+            <div className="card text-center">
               <img
                 src="/images/espace-bien-etre.jpg" // Remplacez par votre image
                 className="card-img-top"
@@ -94,9 +94,14 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site vitrine pour un praticien de bien-être.
                 </p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-outline-primary">
                   Voir
                 </a>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  Site réalisé avec PHP et MySQL
+                </small>
               </div>
             </div>
           </div>
