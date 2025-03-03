@@ -12,6 +12,8 @@ function Menu() {
           alignItems: "center",
           justifyContent: "space-between",
           color: "#fff",
+          position: "relative",
+          zIndex: 1000,
         }}
       >
         {/* Nom à gauche */}

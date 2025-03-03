@@ -97,7 +97,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className="footer-bottom text-center">© Designed by John Doe.</p>
+      <p className="footer-bottom text-center bg-dark text-white p-3 m-0">
+        © Designed by John Doe.
+      </p>
     </footer>
   );
 }
