@@ -12,13 +12,8 @@ function Menu() {
           alignItems: "center",
           justifyContent: "space-between",
           color: "#fff",
-<<<<<<< HEAD
           zIndex: 10,
           position: "relative",
-=======
-          position: "relative",
-          zIndex: 1000,
->>>>>>> 8c8380bc2c9f2b39a2e08dd0b8ac800c901b40d0
         }}
       >
         {/* Logo + Nom */}

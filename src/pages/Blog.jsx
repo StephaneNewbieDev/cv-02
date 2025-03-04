@@ -31,7 +31,7 @@ const Blog = () => {
       </div>
 
       {/* Section Blog */}
-      <section className="container py-5">
+      <section className="container py-5 text-center">
         <div className="row">
           {/* Card 1 */}
           <div className="col-md-4 mb-4">

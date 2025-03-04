@@ -35,7 +35,7 @@ const Realisations = () => {
         <div className="row">
           {/* Card 1 */}
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card">
               <img
                 src="/images/fresh-food.jpg"
                 className="card-img-top"
@@ -46,11 +46,7 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site avec commande en ligne.
                 </p>
-<<<<<<< HEAD
                 <a href="#" className="btn btn-custom">
-=======
-                <a href="#" className="btn btn-outline-primary">
->>>>>>> 8c8380bc2c9f2b39a2e08dd0b8ac800c901b40d0
                   Voir
                 </a>
               </div>
@@ -64,7 +60,7 @@ const Realisations = () => {
 
           {/* Card 2 */}
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card">
               <img
                 src="/images/restaurant-japonais.jpg" // Remplacez par votre image
                 className="card-img-top"
@@ -73,11 +69,7 @@ const Realisations = () => {
               <div className="card-body">
                 <h5 className="card-title">Restaurant Akira</h5>
                 <p className="card-text">Réalisation d’un site vitrine.</p>
-<<<<<<< HEAD
                 <a href="#" className="btn btn-custom">
-=======
-                <a href="#" className="btn btn-outline-primary">
->>>>>>> 8c8380bc2c9f2b39a2e08dd0b8ac800c901b40d0
                   Voir
                 </a>
               </div>
@@ -91,7 +83,7 @@ const Realisations = () => {
 
           {/* Card 3 */}
           <div className="col-md-4">
-            <div className="card text-center">
+            <div className="card">
               <img
                 src="/images/espace-bien-etre.jpg" // Remplacez par votre image
                 className="card-img-top"
@@ -102,21 +94,13 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site vitrine pour un praticien de bien-être.
                 </p>
-<<<<<<< HEAD
                 <a href="#" className="btn btn-custom">
-=======
-                <a href="#" className="btn btn-outline-primary">
->>>>>>> 8c8380bc2c9f2b39a2e08dd0b8ac800c901b40d0
                   Voir
                 </a>
               </div>
               <div className="card-footer">
                 <small className="text-muted">
-<<<<<<< HEAD
                   Site réalisé avec Html et CSS
-=======
-                  Site réalisé avec PHP et MySQL
->>>>>>> 8c8380bc2c9f2b39a2e08dd0b8ac800c901b40d0
                 </small>
               </div>
             </div>
