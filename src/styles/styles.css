@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.arrow-link {
+  position: relative;
+  padding-left: 20px;
+}
+
+.arrow-link::before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  color: blue;
+  font-weight: bold;
+}
+.btn-custom {
+  border: 2px solid blue; /* Bordure bleue */
+  color: blue; /* Texte bleu */
+  background-color: white; /* Fond blanc */
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.btn-custom:hover {
+  background-color: blue; /* Fond bleu */
+  color: white; /* Texte blanc */
+}

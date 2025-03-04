@@ -31,7 +31,7 @@ const Realisations = () => {
       </div>
 
       {/* Section Realisations */}
-      <section className="container py-5">
+      <section className="container py-5 text-center">
         <div className="row">
           {/* Card 1 */}
           <div className="col-md-4">
@@ -46,7 +46,7 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site avec commande en ligne.
                 </p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-custom">
                   Voir
                 </a>
               </div>
@@ -69,7 +69,7 @@ const Realisations = () => {
               <div className="card-body">
                 <h5 className="card-title">Restaurant Akira</h5>
                 <p className="card-text">Réalisation d’un site vitrine.</p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-custom">
                   Voir
                 </a>
               </div>
@@ -94,9 +94,14 @@ const Realisations = () => {
                 <p className="card-text">
                   Réalisation d’un site vitrine pour un praticien de bien-être.
                 </p>
-                <a href="#" className="btn btn-inverse">
+                <a href="#" className="btn btn-custom">
                   Voir
                 </a>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">
+                  Site réalisé avec Html et CSS
+                </small>
               </div>
             </div>
           </div>
